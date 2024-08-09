@@ -1,10 +1,10 @@
-#include <DFRobot_DHT11.h>
+#include <DHT11.h>
 
 // Define DHT sensor type and pin
 #define DHTPIN 33
 
 // Initialize DHT sensor
-DFRobot_DHT11 dht(DHTPIN);
+DHT11 dht(DHTPIN);
 
 // Define relay pin
 #define RELAY_PIN 32
