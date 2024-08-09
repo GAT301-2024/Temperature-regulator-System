@@ -15,11 +15,7 @@ const float TEMP_THRESHOLD_OFF = 25.0; // Turn off the fan (in Celsius)
 
 void setup() {
   // Start serial communication for debugging
-  Serial.begin(9600);
-  
-  // Initialize DHT sensor
-  dht.begin();
-  
+  Serial.begin(9600);// Initialize DHT sensor Serial.begin 
   // Initialize relay pin
   pinMode(RELAY_PIN, OUTPUT);
   
